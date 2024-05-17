@@ -1,1 +1,59 @@
 /* Ini CSS */
+
+header{
+    text-align: center;
+}
+
+.section-content{
+    background: firebrick;
+    color: white;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-align: center;
+
+}
+.section-content>h3{
+    margin: 0;
+}
+
+#switch-keliling {
+    padding-top: 14px;
+    padding-bottom: 14px;
+    width: 100%;
+    background-color: white;
+    border: 0;
+    color: blue;
+}
+
+.formula-img{
+    text-align: center;
+}
+
+.section-rumus{
+    text-align: center;
+}
+
+img{
+    width: 50%;
+}
+
+input{
+    background-color: bisque;
+    border: 1px solid firebrick;
+    border-radius: 4px;
+    padding: 4px;
+    font-family: math;
+    width: 100%;
+}
+
+form>button {
+    padding: 12px;
+    background-color: firebrick;
+    border: 1px solid firebrick;
+    border-radius: 6px;
+    color: white;
+}
+
+#reset-btn {
+    background-color: rgb(255, 68, 0);
+}

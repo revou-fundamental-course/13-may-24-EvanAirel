@@ -1,11 +1,80 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Evan Assignment Calculator</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <header>
+        <h1>Welcome to HitungAku</h1>
+        <section>
+            <p>
+                Hi Guys! selamat datang di HitungAku ^_^
+                <br>Sebuah web apps sederhana yang berfungsi untuk menghitung nilai luas dan keliling bangun datar<br>
+            </p>
+        </section>
+    </header>
+
+    <section>
+        <div class="section-content">
+            <h3>Segitiga</h3>
+        </div>
+
+        <button type="button" id="switch-keliling"><u>Switch ke Keliling Segitiga</u></button>
+
+    </section>
+
+    <section> 
+        <section>
+            <div class="section-content">
+                <h2>Luas Segitiga</h2>
+            </div>
+    
+            <div class="formula-img">
+                <img src="https://asset.kompas.com/crops/ZwOr6ZrEtAtid5uZmYhDFijYPa4=/175x161:1573x1094/750x500/data/photo/2022/03/09/62288763c6d64.png">
+            </div>
+    
+            <p>Rumus Luas Segitiga yaitu :</p>
+        
+            <h2 class="section-rumus">
+                <p><b>L = 1/2 x a x t</b></p>
+            </h2>
+    
+            <p>
+                <br>Dimana :
+                <br>L = Luas
+                <br>a = Panjang Alas
+                <br>t = Tinggi
+            </p>
+        </section>
+        <hr/>
+
+        <section>
+            <header>
+                <h2> Hitung Luas Segitiga</h2>
+            </header>
+
+            <form>
+               <section>
+                <div>
+                    <label>Alas:</label><input/>
+                </div>
+                <div>
+                    <label>Tinggi:</label><input/>
+                </div>
+               </section>
+
+               <p>Di ketahui </p>
+
+               <button type="button">Hitung</button>
+               <button type="button" id="reset-btn">Reset</button>
+            
+            </form>
+        </section>
+
+    </section>
     
 </body>
 </html>
